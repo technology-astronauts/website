@@ -1,0 +1,12 @@
+body {
+  font-size: 12pt;
+  font-family: "Asap", sans-serif; }
+  body a {
+    text-decoration: none; }
+
+.name {
+  text-align: center;
+  font-size: 10em; }
+
+.links {
+  text-align: center; }
