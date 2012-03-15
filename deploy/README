@@ -1,1 +1,3 @@
 - git remote add production technologyastronauts.ch:technologyastronauts/
+
+This readme here: https://github.com/mislav/git-deploy is relevant as well.
