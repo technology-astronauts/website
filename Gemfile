@@ -7,3 +7,5 @@ gem 'guard-livereload'
 
 gem 'slim'
 gem 'RedCloth'
+
+gem 'git-deploy'
