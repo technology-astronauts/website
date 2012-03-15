@@ -4,9 +4,10 @@ body {
   body a {
     text-decoration: none; }
 
-.name {
-  text-align: center;
-  font-size: 10em; }
-
 .links {
   text-align: center; }
+
+.tinyprint {
+  font-size: 7pt;
+  position: absolute;
+  bottom: 10px; }
