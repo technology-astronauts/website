@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: url(../images/noisy.gif);
+  font-size: 12pt;
+  font-family: "Asap", sans-serif; }
+  body a {
+    text-decoration: none; }
+
+.content {
+  background-image: url(../images/docking.bright.png);
+  background-repeat: no-repeat;
+  background-position: 90% 30%;
+  background-color: white;
+  width: 40%;
+  min-width: 550px;
+  margin: 5em auto;
+  padding: 2em 3em 3em;
+  position: relative; }
+  .content:before, .content:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 80%;
+    top: 80%;
+    background: #777777;
+    -webkit-box-shadow: 0 15px 10px #777777;
+    -moz-box-shadow: 0 15px 10px #777777;
+    box-shadow: 0 15px 10px #777777;
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg); }
+  .content:after {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+    right: 10px;
+    left: auto; }
+
+.links {
+  text-align: center; }
+
+.footnote {
+  font-size: 7pt;
+  margin-top: 5em; }
