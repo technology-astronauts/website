@@ -8,6 +8,12 @@ body {
   body a {
     text-decoration: none; }
 
+ul.business li {
+  list-style: url(../images/bullet.rocket.png); }
+
+ul.people li {
+  list-style: url(../images/bullet.person.png); }
+
 .content {
   background-image: url(../images/docking.bright.png);
   background-repeat: no-repeat;
