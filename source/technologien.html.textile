@@ -1,0 +1,19 @@
+Mit diesen Technologien arbeiten wir bevorzugt: 
+
+XXX fehlt eine kurze Begründung
+Ruby
+Go
+PostgreSQL
+Nginx
+ZFS
+KVM
+
+Aber natürlich helfen wir auch gern mit, wenn es um andere Dinge geht: 
+
+Mysql
+Oracle DB
+Apache
+Perl
+Python
+Javascript
+C, Obj-C
