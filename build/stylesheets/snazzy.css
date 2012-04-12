@@ -1,14 +1,14 @@
 * {
-  box-sizing: border-box; }
+  font-size: 100%; }
 
 body {
   background: url(../images/noisy.gif);
-  font-size: 12pt;
+  font-size: 1.1em;
   font-family: "Asap", sans-serif; }
   body a {
     text-decoration: none; }
 
-ul.business li {
+ul li {
   list-style: url(../images/bullet.rocket.png); }
 
 ul.people li {
@@ -17,12 +17,11 @@ ul.people li {
 .content {
   background-image: url(../images/docking.bright.png);
   background-repeat: no-repeat;
-  background-position: 90% 30%;
+  background-position: 100% 100%;
   background-color: white;
-  width: 40%;
-  min-width: 550px;
+  width: 450px;
   margin: 5em auto;
-  padding: 2em 3em 3em;
+  padding: 2em 15em 3em 3em;
   position: relative; }
   .content:before, .content:after {
     z-index: -1;
@@ -53,6 +52,6 @@ ul.people li {
 .links {
   text-align: center; }
 
-.footnote {
-  font-size: 7pt;
-  margin-top: 5em; }
+.slogan {
+  font-variant: small-caps;
+  font-size: 1.5em; }

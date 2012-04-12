@@ -1,0 +1,23 @@
+We're a small team of engineers. We like to provide good solutions. We like
+doing things that last. We don't like the hidden cost. We like no-bullshit
+quality software. Here are areas we will work in:  
+
+* architecture & code
+* operations design & implementation
+* big and small - from web scale to mobile
+* consulting & coaching
+  
+References: 
+
+* Search Engines 
+  (@ "twixtel":http://www.twixtel.ch/, @ "CocoaPods":http://cocoapods.org/)
+* Automating Operations 
+  (@ "GIUZ":http://www.geo.uzh.ch/)
+* Social Networks
+  (@ "restorm.com":http://restorm.com/, @ "InfoCard":http://infocard.ch/)
+* Open Source
+  (@ "Picky":http://florianhanke.com/picky/, @ "parslet":http://kschiess.github.com/parslet/, ...)
+
+We've set up shop in 2012; our references above will often carry the name tag
+of one of our engineers: 
+
