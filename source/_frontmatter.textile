@@ -1,6 +1,6 @@
 We're a small team of engineers. We like to provide good solutions. We like
-doing things that last. We don't like the hidden cost. We like no-bullshit
-quality software. Here are areas we will work in:  
+doing things that last. We don't like hidden costs. We like no-bullshit
+quality software. Here are areas we work in:  
 
 * architecture & code
 * operations design & implementation
