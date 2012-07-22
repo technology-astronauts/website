@@ -6,6 +6,7 @@
 
 body {
   height: 100%;
+  background: black;
   background: -moz-radial-gradient(50% 3000px, circle, white 2890px, black 2920px);
   background: -webkit-gradient(radial, 50% 3000, 2890, 50% 3000, 2920, from(white), to(black));
   font-size: 1.1em;
@@ -20,36 +21,41 @@ ul li {
 ul.people li {
   list-style: url(../images/bullet.person.png); }
 
-.astronaut-reversed {
-  background-image: url(../images/astronaut-reversed.png);
-  position: absolute;
-  top: -15px;
-  left: -10%;
-  width: 82px;
-  height: 80px; }
-
 .astronaut {
-  background-image: url(../images/astronaut.png);
   position: absolute;
-  top: -15px;
-  right: -10%;
   width: 82px;
-  height: 80px; }
+  height: 80px;
+  top: -12px; }
+  .astronaut.left {
+    left: -10%;
+    background-image: url(../images/astronaut-reversed.png); }
+  .astronaut.right {
+    right: -10%;
+    background-image: url(../images/astronaut.png); }
 
-.content {
-  background-image: url(../images/docking.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
+.title {
+  color: white;
   width: 600px;
-  height: 50em;
+  height: 6em;
   margin: 0 auto;
   padding: 0em 3em 0em 3em;
   position: relative; }
-  .content h1 {
+  .title h1 {
     color: white;
     text-align: center;
     font-size: 2em;
     margin-bottom: 2em; }
+
+.content {
+  background-color: white;
+  background-image: url(../images/docking.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 600px;
+  height: 45em;
+  margin: 0 auto;
+  padding: 0.5em 3em 0em 3em;
+  position: relative; }
 
 .links {
   text-align: center; }
