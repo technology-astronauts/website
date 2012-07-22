@@ -1,12 +1,19 @@
 * {
-  font-size: 100%; }
+  font-size: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
 body {
-  background: url(../images/noisy.gif);
+  height: 100%;
+  background-color: white;
+  background: -moz-radial-gradient(50% 100%, circle, black 90px, white 600px);
+  background: -webkit-gradient(radial, 50% 3000, 2890, 50% 3000, 2920, from(white), to(black));
   font-size: 1.1em;
   font-family: "Asap", sans-serif; }
   body a {
-    text-decoration: none; }
+    text-decoration: underscore;
+    color: #555555; }
 
 ul li {
   list-style: url(../images/bullet.rocket.png); }
@@ -14,40 +21,37 @@ ul li {
 ul.people li {
   list-style: url(../images/bullet.person.png); }
 
+.astronaut-reversed {
+  background-image: url(../images/astronaut-reversed.png);
+  position: absolute;
+  top: -15px;
+  left: -10%;
+  width: 82px;
+  height: 80px; }
+
+.astronaut {
+  background-image: url(../images/astronaut.png);
+  position: absolute;
+  top: -15px;
+  right: -10%;
+  width: 82px;
+  height: 80px; }
+
 .content {
-  background-image: url(../images/docking.bright.png);
+  background-image: url(../images/docking.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  background-color: white;
-  width: 450px;
-  margin: 5em auto;
-  padding: 2em 15em 3em 3em;
+  width: 600px;
+  height: 50em;
+  margin: 0 auto;
+  padding: 0em 3em 0em 3em;
   position: relative; }
-  .content:before, .content:after {
-    z-index: -1;
-    position: absolute;
-    content: "";
-    bottom: 15px;
-    left: 10px;
-    width: 80%;
-    top: 80%;
-    background: #777777;
-    -webkit-box-shadow: 0 15px 10px #777777;
-    -moz-box-shadow: 0 15px 10px #777777;
-    box-shadow: 0 15px 10px #777777;
-    -webkit-transform: rotate(-1deg);
-    -moz-transform: rotate(-1deg);
-    -o-transform: rotate(-1deg);
-    -ms-transform: rotate(-1deg);
-    transform: rotate(-1deg); }
-  .content:after {
-    -webkit-transform: rotate(1deg);
-    -moz-transform: rotate(1deg);
-    -o-transform: rotate(1deg);
-    -ms-transform: rotate(1deg);
-    transform: rotate(1deg);
-    right: 10px;
-    left: auto; }
+  .content h1 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 2em; }
 
 .links {
   text-align: center; }
