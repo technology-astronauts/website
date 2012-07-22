@@ -10,13 +10,13 @@ quality software. Here are areas we work in:
 References: 
 
 * Search Engines 
-  (@ "twixtel":http://www.twixtel.ch/, @ "CocoaPods":http://cocoapods.org/)
+  ("twixtel":http://www.twixtel.ch/, "CocoaPods":http://cocoapods.org/)
 * Automating Operations 
-  (@ "GIUZ":http://www.geo.uzh.ch/)
+  ("GIUZ":http://www.geo.uzh.ch/)
 * Social Networks
-  (@ "restorm.com":http://restorm.com/, @ "InfoCard":http://infocard.ch/)
+  ("restorm.com":http://restorm.com/, "InfoCard":http://infocard.ch/)
 * Open Source
-  (@ "Picky":http://florianhanke.com/picky/, @ "parslet":http://kschiess.github.com/parslet/, ...)
+  ("Picky":http://florianhanke.com/picky/, "parslet":http://kschiess.github.com/parslet/, "Phony":http://florianhanke.com/phony/, "cod":http://kschiess.github.com/cod/)
 
 We've set up shop in 2012; our references above will often carry the name tag
 of one of our engineers: 
