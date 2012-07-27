@@ -1,12 +1,20 @@
-We're a small team of engineers. We like to provide good solutions. We like
-doing things that last. We don't like hidden costs. We like no-bullshit
-quality software. Here are areas we work in:  
+*Software* ° Put us to work on your software projects. We deliver quality
+software while keeping an eye on scope and maintainability. We want the users
+to be happy users.
 
-* architecture & code
-* operations design & implementation
-* big and small - from web scale to mobile
-* consulting & coaching
-  
+*Server Environments* ° We develop server environments that are low
+maintenance. We use technologies like ZFS and KVM to make your data center 
+rock solid. The best documentation is executable code – we deliver a fully 
+self-describing system that can be replicated to new hardware. 
+
+*Coaching & Consulting* ° We have over 10 years of experience with sustainable
+software development. Want to talk to us about what you're doing and what 
+problems you're facing?
+
+*On every scale* ° Do you need a mobile application? Or a web application? Are
+you creating a web of distributed applications that process data? Machine
+learning? Do you want to give your business a human interface? We want to help.
+
 References: 
 
 * Search Engines 
