@@ -21,21 +21,6 @@ h1 {
   margin: 1.6em auto 0.8em;
   text-align: center; }
 
-.astronaut {
-  background-repeat: no-repeat; }
-  .astronaut.left {
-    float: left;
-    background-image: url(/images/left_astronaut.png);
-    width: 202px;
-    height: 583px; }
-  .astronaut.right {
-    float: right;
-    background-image: url(/images/right_astronaut.png);
-    background-position: 77px 11px;
-    width: 202px;
-    height: 583px;
-    margin-left: -10px; }
-
 .content p {
   margin: 2em 0; }
   .content p.slogan {
@@ -44,3 +29,27 @@ h1 {
   margin-left: 13.5em; }
 .content p.close {
   margin-bottom: 1em; }
+
+.astronaut {
+  background-repeat: no-repeat; }
+  .astronaut.left {
+    float: left;
+    background-image: url(/images/left_astronaut.png);
+    width: 202px;
+    height: 583px;
+    background-size: 202px 583px; }
+  .astronaut.right {
+    float: right;
+    background-image: url(/images/right_astronaut.png);
+    background-position: 77px 11px;
+    width: 202px;
+    height: 583px;
+    background-size: 125px 545px;
+    margin-left: -10px; }
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .astronaut.left {
+    background-image: url(/images/left_astronaut@2x.png); }
+
+  .astronaut.right {
+    background-image: url(/images/right_astronaut@2x.png); } }
