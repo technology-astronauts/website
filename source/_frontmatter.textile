@@ -1,31 +1,28 @@
-*Software* ° Put us to work on your software projects. We deliver quality
+*Software*&nbsp;&nbsp;&nbsp;Put us to work on your software projects. We deliver quality
 software while keeping an eye on scope and maintainability. We want the users
 to be happy users.
 
-*Server Environments* ° We develop server environments that are low
+*Server Environments*&nbsp;&nbsp;&nbsp;We develop server environments that are low
 maintenance. We use technologies like ZFS and KVM to make your data center 
 rock solid. The best documentation is executable code – we deliver a fully 
 self-describing system that can be replicated to new hardware. 
 
-*Coaching & Consulting* ° We have over 10 years of experience with sustainable
+*Coaching & Consulting*&nbsp;&nbsp;&nbsp;We have over 10 years of experience with sustainable
 software development. Want to talk to us about what you're doing and what 
 problems you're facing?
 
-*On every scale* ° Do you need a mobile application? Or a web application? Are
+*On every scale*&nbsp;&nbsp;&nbsp;Do you need a mobile application? Or a web application? Are
 you creating a web of distributed applications that process data? Machine
 learning? Do you want to give your business a human interface? We want to help.
 
-References: 
-
-* Search Engines 
-  ("twixtel":http://www.twixtel.ch/, "CocoaPods":http://cocoapods.org/)
-* Automating Operations 
-  ("GIUZ":http://www.geo.uzh.ch/)
-* Social Networks
-  ("restorm.com":http://restorm.com/, "InfoCard":http://infocard.ch/)
-* Open Source
-  ("Picky":http://florianhanke.com/picky/, "parslet":http://kschiess.github.com/parslet/, "Phony":http://florianhanke.com/phony/, "cod":http://kschiess.github.com/cod/)
-
-We've set up shop in 2012; our references above will often carry the name tag
-of one of our engineers: 
-
+*Team*
+* Florian Hanke (<a href="http://florianhanke.com">florianhanke.com</a>)
+* Kaspar Schiess (<a href="http://absurd.li">absurd.li</a>)
+	
+*References*    
+* Search Engines ("twixtel":http://www.twixtel.ch/, "CocoaPods":http://cocoapods.org/)
+* Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
+* Social Networks ("restorm.com":http://restorm.com/, "InfoCard":http://infocard.ch/)
+* Open Source ("Picky":http://florianhanke.com/picky/, "parslet":http://kschiess.github.com/parslet/, "Phony":http://florianhanke.com/phony/, "cod":http://kschiess.github.com/cod/)
+  
+p(slogan). *Do you have a hard problem?* Hire an astronaut today. "Contact us":mailto:info@technologyastronauts.ch.
