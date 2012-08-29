@@ -15,11 +15,11 @@ problems you're facing?
 you creating a web of distributed applications that process data? Machine
 learning? Do you want to give your business a human interface? We want to help.
 
-*Team*
+p(close). *Team*
 * Florian Hanke (<a href="http://florianhanke.com">florianhanke.com</a>)
 * Kaspar Schiess (<a href="http://absurd.li">absurd.li</a>)
 	
-*References*    
+p(close). *References*    
 * Search Engines ("twixtel":http://www.twixtel.ch/, "CocoaPods":http://cocoapods.org/)
 * Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
 * Social Networks ("restorm.com":http://restorm.com/, "InfoCard":http://infocard.ch/)
