@@ -1,65 +1,46 @@
 * {
-  font-size: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
-  background: black;
-  background: -moz-radial-gradient(50% 3000px, circle, white 2900px, black 2920px);
-  background: -webkit-gradient(radial, 50% 3000, 2900, 50% 3000, 2920, from(white), to(black));
-  background-repeat: no-repeat;
-  font-size: 1.1em;
-  font-family: "Asap", sans-serif; }
+  width: 890px;
+  background: white;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serif; }
   body a {
     text-decoration: underscore;
     color: #555555; }
 
-ul li {
-  list-style: url(../images/bullet.rocket.png); }
-
-ul.people li {
-  list-style: url(../images/bullet.person.png); }
-
-.astronaut {
-  position: absolute;
-  width: 82px;
-  height: 80px;
-  top: -12px; }
-  .astronaut.left {
-    left: -10%;
-    background-image: url(../images/astronaut-reversed.png); }
-  .astronaut.right {
-    right: -10%;
-    background-image: url(../images/astronaut.png); }
-
-.title {
-  color: white;
-  width: 600px;
-  height: 5.5em;
-  margin: 0 auto;
-  padding: 0em 3em 0em 3em;
-  position: relative; }
-  .title h1 {
-    color: white;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 2em; }
-
-.content {
-  background-color: white;
-  background-image: url(../images/docking.png);
-  background-position: 100% 40em;
-  background-repeat: no-repeat;
-  width: 600px;
-  height: 60em;
-  margin: 0 auto;
-  padding: 0.5em 3em 0em 3em;
-  position: relative; }
-
-.links {
+h1 {
+  font-size: 2.6em;
+  font-family: "Futura", sans-serif;
+  font-weight: 300;
+  color: black;
+  margin: 1.6em auto 0.8em;
   text-align: center; }
 
-.slogan {
-  font-variant: small-caps;
-  font-size: 1.5em; }
+.astronaut {
+  background-repeat: no-repeat; }
+  .astronaut.left {
+    float: left;
+    background-image: url(/images/left_astronaut.png);
+    width: 202px;
+    height: 583px; }
+  .astronaut.right {
+    float: right;
+    background-image: url(/images/right_astronaut.png);
+    background-position: 77px 11px;
+    width: 202px;
+    height: 583px;
+    margin-left: -10px; }
+
+.content p {
+  margin: 2em 0; }
+  .content p.slogan {
+    font-size: 1.15em; }
+.content ul {
+  margin-left: 13.5em; }
+.content p.close {
+  margin-bottom: 1em; }

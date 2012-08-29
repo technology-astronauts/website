@@ -4,8 +4,9 @@
   box-sizing: border-box
 
 body
+  width: 890px
   background: white
-  
+  margin: 0 auto
   font:
     size: 14px
     family: 'Helvetica', sans-serif
@@ -22,27 +23,43 @@ h1
   color: black
   margin: 1.6em auto 0.8em
   text-align: center
-  
+
 .content
-  width: 512px
-  margin: 0 auto
-  
-  img
-    position: absolute
-    
-    &.left
-      left: -618px
-    
-    &.right
-      width: 128px
-      top: 20px
-      right: 690px
-  
   p
     margin: 2em 0
-    
+  
     &.slogan
       font-size: 1.15em
-      
+    
+  ul
+    margin-left: 13.5em
+    
   p.close
     margin-bottom: 1em
+
+.astronaut
+  background-repeat: no-repeat
+
+  &.left
+    float: left
+    background-image: url(/images/left_astronaut.png)
+    width: 202px
+    height: 583px
+    background-size: 202px 583px
+    
+  &.right
+    float: right
+    background-image: url(/images/right_astronaut.png)
+    background-position: 77px 11px
+    width: 202px
+    height: 583px
+    background-size: 125px 545px
+    margin-left: -10px
+
+// Retina - loads an improved image for retina-ready displays.
+//
+@media all and (-webkit-min-device-pixel-ratio: 1.5)
+  .astronaut.left
+    background-image: url(/images/left_astronaut@2x.png)
+  .astronaut.right
+    background-image: url(/images/right_astronaut@2x.png)
