@@ -36,14 +36,14 @@ h1 {
     float: left;
     background-image: url(/images/left_astronaut.png);
     width: 202px;
-    height: 583px;
+    height: 1024px;
     background-size: 202px 583px; }
   .astronaut.right {
     float: right;
     background-image: url(/images/right_astronaut.png);
     background-position: 77px 11px;
     width: 202px;
-    height: 583px;
+    height: 1024px;
     background-size: 125px 545px;
     margin-left: -10px; }
 
