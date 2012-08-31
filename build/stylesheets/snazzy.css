@@ -31,6 +31,7 @@ h1 {
     margin-bottom: 1em; }
 
 .astronaut {
+  z-index: -1;
   position: absolute;
   background-repeat: no-repeat; }
   .astronaut.left {
@@ -54,3 +55,12 @@ h1 {
 
   .astronaut.right {
     background-image: url(/images/right_astronaut@2x.png); } }
+@media all and (max-width: 880px) {
+  body {
+    font-size: 14px; } }
+@media all and (max-width: 720px) {
+  body {
+    font-size: 12px; } }
+@media all and (max-width: 640px) {
+  .astronaut {
+    display: none; } }
