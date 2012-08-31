@@ -31,21 +31,19 @@ h1 {
     margin-bottom: 1em; }
 
 .astronaut {
-  z-index: -1;
+  width: 202px;
+  height: 853px;
   position: absolute;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  z-index: -1; }
   .astronaut.left {
     left: 0px;
     background-image: url(/images/left_astronaut.png);
-    width: 202px;
-    height: 853px;
     background-size: 202px 583px; }
   .astronaut.right {
     right: 0px;
     background-image: url(/images/right_astronaut.png);
     background-position: 77px 11px;
-    width: 202px;
-    height: 853px;
     background-size: 125px 545px;
     margin-left: -10px; }
 
