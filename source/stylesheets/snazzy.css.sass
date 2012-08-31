@@ -36,6 +36,7 @@ h1
     margin-bottom: 1em
 
 .astronaut
+  z-index: -1
   position: absolute
   background-repeat: no-repeat
 
@@ -62,3 +63,17 @@ h1
     background-image: url(/images/left_astronaut@2x.png)
   .astronaut.right
     background-image: url(/images/right_astronaut@2x.png)
+    
+// Too narrow? Resize the text, or even remove the astronauts.
+//
+@media all and (max-width: 880px)
+  body
+    font-size: 14px
+
+@media all and (max-width: 720px)
+  body
+    font-size: 12px
+    
+@media all and (max-width: 640px)
+  .astronaut
+    display: none
