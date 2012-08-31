@@ -4,10 +4,9 @@
   box-sizing: border-box; }
 
 body {
-  width: 890px;
   background: white;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Helvetica", sans-serif; }
   body a {
     text-decoration: underscore;
@@ -18,32 +17,34 @@ h1 {
   font-family: "Futura", sans-serif;
   font-weight: 300;
   color: black;
-  margin: 1.6em auto 0.8em;
+  margin: 1em auto 0.8em;
   text-align: center; }
 
-.content p {
-  margin: 2em 0; }
-  .content p.slogan {
-    font-size: 1.15em; }
-.content ul {
-  margin-left: 13.5em; }
-.content p.close {
-  margin-bottom: 1em; }
+.content {
+  width: 36em;
+  margin: 0 auto; }
+  .content p {
+    margin: 2em 0; }
+    .content p.slogan {
+      font-size: 1.1em; }
+  .content p.close {
+    margin-bottom: 1em; }
 
 .astronaut {
+  position: absolute;
   background-repeat: no-repeat; }
   .astronaut.left {
-    float: left;
+    left: 0px;
     background-image: url(/images/left_astronaut.png);
     width: 202px;
-    height: 1100px;
+    height: 853px;
     background-size: 202px 583px; }
   .astronaut.right {
-    float: right;
+    right: 0px;
     background-image: url(/images/right_astronaut.png);
     background-position: 77px 11px;
     width: 202px;
-    height: 1100px;
+    height: 853px;
     background-size: 125px 545px;
     margin-left: -10px; }
 
