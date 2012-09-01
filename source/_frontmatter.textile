@@ -3,7 +3,7 @@ software while keeping an eye on scope and maintainability. We want the users
 to be happy users.
 
 *Server Environments*&nbsp;&nbsp;&nbsp;We develop server environments that are low
-maintenance. We use technologies like ZFS(Z File System) and KVM(K Virtual M)
+maintenance. We use technologies like ZFS and KVM(Kernel-based Virtual Machine)
 to make your data center rock solid. The best documentation is executable code – we deliver a fully 
 self-describing system that can be replicated to new hardware. 
 
