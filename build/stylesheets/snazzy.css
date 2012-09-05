@@ -5,9 +5,12 @@
 
 body {
   background: white;
+  color: #333333;
   margin: 0 auto;
+  line-height: 1.6em;
+  font-weight: 300;
   font-size: 18px;
-  font-family: "Helvetica", sans-serif; }
+  font-family: sans-serif; }
   body a {
     text-decoration: underscore;
     color: #555555; }
@@ -16,7 +19,8 @@ h1 {
   font-size: 2.6em;
   font-family: "Futura", sans-serif;
   font-weight: 300;
-  color: black;
+  line-height: 1.3em;
+  color: #555555;
   margin: 1em auto 0.8em;
   text-align: center; }
 
@@ -29,6 +33,10 @@ h1 {
       font-size: 1.1em; }
   .content p.close {
     margin-bottom: 1em; }
+  .content strong {
+    color: #555555;
+    text-transform: uppercase;
+    font-family: "Futura", sans-serif; }
 
 .astronaut {
   width: 202px;
@@ -38,21 +46,21 @@ h1 {
   z-index: -1; }
   .astronaut.left {
     left: 0px;
-    background-image: url(/images/left_astronaut.png);
+    background-image: url(../images/left_astronaut.png);
     background-size: 202px 583px; }
   .astronaut.right {
     right: 0px;
-    background-image: url(/images/right_astronaut.png);
+    background-image: url(../images/right_astronaut.png);
     background-position: 77px 11px;
     background-size: 125px 545px;
     margin-left: -10px; }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .astronaut.left {
-    background-image: url(/images/left_astronaut@2x.png); }
+    background-image: url(../images/left_astronaut@2x.png); }
 
   .astronaut.right {
-    background-image: url(/images/right_astronaut@2x.png); } }
+    background-image: url(../images/right_astronaut@2x.png); } }
 @media all and (max-width: 880px) {
   body {
     font-size: 14px; } }

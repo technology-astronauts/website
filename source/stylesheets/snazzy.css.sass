@@ -5,10 +5,13 @@
 
 body
   background: white
+  color: #333
   margin: 0 auto
+  line-height: 1.6em
   font:
+    weight: 300
     size: 18px
-    family: 'Helvetica', sans-serif
+    family: sans-serif
     
   a
     text-decoration: underscore
@@ -19,7 +22,8 @@ h1
     size: 2.6em
     family: 'Futura', sans-serif
     weight: 300
-  color: black
+  line-height: 1.3em
+  color: #555
   margin: 1em auto 0.8em
   text-align: center
 
@@ -34,6 +38,11 @@ h1
     
   p.close
     margin-bottom: 1em
+  
+  strong
+    color: #555
+    text-transform: uppercase
+    font-family: 'Futura', sans-serif
 
 .astronaut
   width: 202px
@@ -44,12 +53,12 @@ h1
   
   &.left
     left: 0px
-    background-image: url(/images/left_astronaut.png)
+    background-image: url(../images/left_astronaut.png)
     background-size: 202px 583px
     
   &.right
     right: 0px
-    background-image: url(/images/right_astronaut.png)
+    background-image: url(../images/right_astronaut.png)
     background-position: 77px 11px
     background-size: 125px 545px
     margin-left: -10px
@@ -58,9 +67,9 @@ h1
 //
 @media all and (-webkit-min-device-pixel-ratio: 1.5)
   .astronaut.left
-    background-image: url(/images/left_astronaut@2x.png)
+    background-image: url(../images/left_astronaut@2x.png)
   .astronaut.right
-    background-image: url(/images/right_astronaut@2x.png)
+    background-image: url(../images/right_astronaut@2x.png)
     
 // Too narrow? Resize the text, or even remove the astronauts.
 //
