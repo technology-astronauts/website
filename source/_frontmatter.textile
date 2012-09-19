@@ -23,6 +23,10 @@ p(close). *References*
 * Search Engines ("twixtel":http://www.twixtel.ch/, "CocoaPods":http://cocoapods.org/)
 * Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
 * Social Networks ("restorm.com":http://restorm.com/, "InfoCard":http://infocard.ch/)
-* Open Source ("Picky":http://florianhanke.com/picky/, "parslet":http://kschiess.github.com/parslet/, "Phony":http://florianhanke.com/phony/, "cod":http://kschiess.github.com/cod/)
+* Open Source ("Picky":http://florianhanke.com/picky/, 
+  "parslet":http://kschiess.github.com/parslet/, 
+  "Phony":http://florianhanke.com/phony/,   
+  "cod":http://kschiess.github.com/cod/, 
+  "bocuse":https://github.com/mobino/bocuse)
   
 p(slogan). *Do&nbsp;you&nbsp;have&nbsp;a&nbsp;hard&nbsp;problem?* Hire&nbsp;an&nbsp;astronaut&nbsp;today.&nbsp;"Contact&nbsp;us":mailto:info@technologyastronauts.ch.
