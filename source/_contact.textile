@@ -9,8 +9,9 @@ Technology Astronauts GmbH<br/>
 c/o Kaspar Schiess<br/> 
 Scheibenstrasse 19<br/> 
 3014 Bern<br/>
+Switzerland<br/>
 
-Depending on our current mission, there will be a communications delay. Please 
-leave a message and we'll get back to you.
+
+Depending on our current mission, there will be a communications delay. Please leave a message and we'll get back to you.
 
 <!-- Expect a communication delay of several seconds due to the distance. -->
