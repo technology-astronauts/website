@@ -30,7 +30,8 @@ h1 {
   .content p {
     margin: 2em 0; }
     .content p.slogan {
-      font-size: 1.1em; }
+      font-size: 1.1em;
+      white-space: nowrap; }
   .content p.close {
     margin-bottom: 1em; }
   .content strong {
