@@ -1,32 +1,38 @@
-*Software*&nbsp;&nbsp;&nbsp;Put us to work on your software projects. We deliver quality
-software while keeping an eye on scope and maintainability. We want the users
-to be happy users.
+*Software*&nbsp;&nbsp; Put us to work on your software projects. We
+deliver quality software while keeping an eye on scope and maintainability. We
+want the users to be happy users.
 
-*Server Environments*&nbsp;&nbsp;&nbsp;We develop server environments that are low
-maintenance. We use technologies like ZFS and KVM(Kernel-based Virtual Machine)
-to make your data center rock solid. The best documentation is executable code – we deliver a fully 
-self-describing system that can be replicated to new hardware. 
+*Server Environments*&nbsp;&nbsp; We develop server environments that
+are low maintenance. We use technologies like ZFS and KVM(Kernel-based Virtual
+Machine) to make your data center rock solid. The best documentation is
+executable code – we deliver a fully self-describing system that can be
+replicated to new hardware.
 
-*Coaching & Consulting*&nbsp;&nbsp;&nbsp;We have over 10 years of experience with sustainable
-software development. Want to talk to us about what you're doing and what 
-problems you're facing?
+*Coaching & Consulting*&nbsp;&nbsp; We have over 10 years of experience
+with sustainable software development. Want to talk to us about what you're
+doing and what problems you're facing?
 
-*On every scale*&nbsp;&nbsp;&nbsp;Do you need a mobile application? Or a web application? Are
-you creating a web of distributed applications that process data? Machine
-learning? Do you want to give your business a human interface? We want to help.
+*On every scale*&nbsp;&nbsp; Do you need a mobile application? Or a web
+application? Are you creating a web of distributed applications that process
+data? Machine learning? Do you want to give your business a human interface?
+We want to help.
 
 p(close). *Team*
 * Florian Hanke (<a href="http://florianhanke.com">florianhanke.com</a>)
 * Kaspar Schiess (<a href="http://absurd.li">absurd.li</a>)
-	
+
 p(close). *References*    
-* Search Engines ("twixtel":http://www.twixtel.ch/, "CocoaPods":http://cocoapods.org/)
+
+* Search Engines ("twixtel":http://www.twixtel.ch/,
+ "CocoaPods":http://cocoapods.org/)
 * Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
-* Social Networks ("restorm.com":http://restorm.com/, "InfoCard":http://infocard.ch/)
+* Social Networks ("restorm.com":http://restorm.com/, 
+  "InfoCard":http://infocard.ch/)
 * Open Source ("Picky":http://florianhanke.com/picky/, 
   "parslet":http://kschiess.github.com/parslet/, 
   "Phony":http://florianhanke.com/phony/,   
   "cod":http://kschiess.github.com/cod/, 
   "bocuse":https://github.com/mobino/bocuse)
   
-p(slogan). *Do&nbsp;you&nbsp;have&nbsp;a&nbsp;hard&nbsp;problem?* Hire&nbsp;an&nbsp;astronaut&nbsp;today.&nbsp;"Contact&nbsp;us":mailto:info@technologyastronauts.ch.
+p(slogan). *Do you have a hard problem?* <br/>
+Hire an astronaut today. "Contact&nbsp;us":contact.html.

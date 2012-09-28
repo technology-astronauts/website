@@ -1,0 +1,16 @@
+
+
+
+*Email*&nbsp;&nbsp; "info@technologyastronauts.ch":mailto:info@technologyastronauts.ch
+<br/> 
+*Telephone*&nbsp;&nbsp; +41 (0)76 515 88 77<br/>
+*Address* <br/> 
+Technology Astronauts GmbH<br/> 
+c/o Kaspar Schiess<br/> 
+Scheibenstrasse 19<br/> 
+3014 Bern<br/>
+
+Depending on our current mission, there will be a communications delay. Please 
+leave a message and we'll get back to you.
+
+<!-- Expect a communication delay of several seconds due to the distance. -->
