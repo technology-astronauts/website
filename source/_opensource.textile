@@ -2,20 +2,20 @@
 
 The philosophy? Flexibility. Power. Adaptability.
 
-<!-- !images/placeholder.png! -->
-"*Bocuse*":http://github.com/mobino/bocuse Bocuse goes one step further than chef, by taking away all the unnecessary fusion cuisine cruft that made chef a bit too complicated for a connaisseur. This is all about the basics and good ingredients: a simple and straightforward, and very powerful DSL.
-
-!images/cod.png!
-"*Cod*":http://kschiess.github.com/cod Interprocess communication? Look no further – this is the premier answer to all your IPC woes. Parent-child, child-parent, process-process communication – this fish does it all, and more. The best IPC gem currently available.
+!images/picky.png!
+"*Picky*":http://florianhanke.com/picky THE most flexible and powerful Ruby search engine out there. And dare we say the best? This octopus packs a punch: offers a choice of four different index stores, incredible search and indexing customization options, can be run in a simple script, sinatra, or rails, and comes with a complete and customizable JavaScript frontend. Oh, and it's FAST, too.
 
 !images/parslet.png!
 "*Parslet*":http://kschiess.github.com/parslet There are quite a few PEG parsers for Ruby out there. We think this is the simplest to understand, cleanest, most flexible and most powerful one. Why? Read all about it here: "http://florianhanke.com/blog/2011/02/01/parslet-intro.html":http://florianhanke.com/blog/2011/02/01/parslet-intro.html.
 
-<!-- !images/placeholder.png! -->
+<!-- !images/phony.png! -->
 "*Phony*":http://florianhanke.com/phony Ever had to render a phone number? Simple, right? Just add some dashes: "1-800-WECALLYOU". What if you have a French number, like "+33 7 12 34 56 89"? Dashes don't quite cut it anymore. This gem handles all the international phone number formatting etc. for you.
 
-!images/picky.png!
-"*Picky*":http://florianhanke.com/picky THE most flexible and powerful Ruby search engine out there. And dare we say the best? This octopus packs a punch: offers a choice of four different index stores, incredible search and indexing customization options, can be run in a simple script, sinatra, or rails, and comes with a complete and customizable JavaScript frontend. Oh, and it's FAST, too.
+!images/cod.png!
+"*Cod*":http://kschiess.github.com/cod Interprocess communication? Look no further – this is the premier answer to all your IPC woes. Parent-child, child-parent, process-process communication – this fish does it all, and more. The best IPC gem currently available.
+
+<!-- !images/placeholder.png! -->
+"*Bocuse*":http://github.com/mobino/bocuse Bocuse goes one step further than chef, by taking away all the unnecessary fusion cuisine cruft that made chef a bit too complicated for a connaisseur. This is all about the basics and good ingredients: a simple and straightforward, and very powerful DSL.
 
 All our products are lovingly handcrafted.
 
