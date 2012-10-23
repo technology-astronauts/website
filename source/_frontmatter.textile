@@ -21,18 +21,14 @@ p(close). *Team*
 * Florian Hanke (<a href="http://florianhanke.com">florianhanke.com</a>)
 * Kaspar Schiess (<a href="http://absurd.li">absurd.li</a>)
 
-p(close). *References*    
+p(close). *References*
 
 * Search Engines ("twixtel":http://www.twixtel.ch/,
  "CocoaPods":http://cocoapods.org/)
 * Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
 * Social Networks ("restorm.com":http://restorm.com/, 
   "InfoCard":http://infocard.ch/)
-* Open Source ("Picky":http://florianhanke.com/picky/, 
-  "parslet":http://kschiess.github.com/parslet/, 
-  "Phony":http://florianhanke.com/phony/,   
-  "cod":http://kschiess.github.com/cod/, 
-  "bocuse":https://github.com/mobino/bocuse)
+* "Open&nbsp;Source":opensource.html
   
 p(slogan). *Do you have a hard problem?* <br/>
 Hire an astronaut today. "Contact&nbsp;us":contact.html.
