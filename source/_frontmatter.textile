@@ -8,6 +8,9 @@ Machine) to make your data center rock solid. The best documentation is
 executable code – we deliver a fully self-describing system that can be
 replicated to new hardware.
 
+*Cloud Hosting*&nbsp;&nbsp; We can help you move part or all of your services
+to the cloud. Even to a private corner of the cloud. 
+
 *Coaching & Consulting*&nbsp;&nbsp; We have over 10 years of experience
 with sustainable software development. Want to talk to us about what you're
 doing and what problems you're facing?
