@@ -11,8 +11,8 @@ The philosophy? Flexibility. Power. Adaptability.
 !images/phony.png!
 "*Phony*":http://florianhanke.com/phony Ever had to render a phone number? Simple, right? Just add some dashes: "1-800-WECALLYOU". What if you have a French number, like "+33 7 12 34 56 89"? Dashes don't quite cut it anymore. This gem handles all the international phone number formatting etc. for you.
 
-!images/cod.png!
-"*Cod*":http://kschiess.github.com/cod Interprocess communication? Look no further – this is the premier answer to all your IPC woes. Parent-child, child-parent, process-process communication – this fish does it all, and more. The best IPC gem currently available.
+!images/nanomsg.png!
+"*nanomsg*":https://bitbucket.org/kschiess/nanomsg Ruby bindings for the `nanomsg` library. "nanomsg":http://nanomsg.org/ library is a high-performance implementation of several "scalability protocols". This Ruby binding allows you to create work distribution topologies and do safe IPC, across threads or the network. 
 
 !images/placeholder.png!
 "*qemu-toolkit*":http://kschiess.bitbucket.org/qemu-toolkit/README.7.html 
