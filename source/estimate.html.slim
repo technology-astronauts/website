@@ -1,0 +1,67 @@
+.astronaut.left
+.astronaut.right
+.content
+  link rel="stylesheet" href="stylesheets/TangleKit.css" type="text/css"
+  script type="text/javascript" src="javascripts/sprintf.js"
+  script type="text/javascript" src="javascripts/mootools.js"
+  script type="text/javascript" src="javascripts/Tangle.js"
+  script type="text/javascript" src="javascripts/BVTouchable.js"
+  script type="text/javascript" src="javascripts/TangleKit.js"
+  
+  p#estimate
+    |  With an estimate of 
+    span data-var="highestProbabilityEstimate" class="TKAdjustableNumber" data-min="1" data-max="100" data-format="%.0f hours"
+    |  we are 
+    span data-var="probability" data-format="%.0f" %
+    |  sure to finish by then.
+
+javascript:
+  var poisson = function(x, lambda)
+  {
+      var f = 1;
+      var r = Math.pow(lambda,x) * Math.exp(-lambda);
+      while (x > 0)
+      {
+          f = f * x;
+          x--;
+      }
+      return (r/f);
+  }
+  
+  var cumulative = function(func, x, lambda) {
+    var sum = 0;
+    for (var i = 0; i < x; i++) {
+      sum += func(i, lambda);
+    }
+    return sum;
+  }
+  var lambdaEstimate = function(poisson, x, probability, accuracy) {
+    var accuracy = accuracy || 10;
+    for (var l = 100; l > 0; l -= 0.1) {
+      var cumulativeProbability = cumulative(poisson, x, l);
+      if (cumulativeProbability >= probability) {
+        return l;
+      };
+    }
+  }
+  
+  var getQueryStringParameter = function(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+  }
+
+  function setUpTangle () {
+    var element = document.getElementById("estimate");
+
+    var tangle = new Tangle(element, {
+      initialize: function () {
+        this.highestProbabilityEstimate = parseInt(getQueryStringParameter('ta'));
+        this.probability = parseInt(getQueryStringParameter('p')) / 100;
+        this.lambda = lambdaEstimate(poisson, this.highestProbabilityEstimate, this.probability, 10);
+      },
+      update: function () {
+      	this.probability = cumulative(poisson, this.highestProbabilityEstimate, this.lambda) * 100;
+      }
+    });
+  }
+  setUpTangle();

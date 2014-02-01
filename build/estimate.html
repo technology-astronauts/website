@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <link href="./stylesheets/snazzy.css" media="screen" rel="stylesheet" type="text/css" />
+    <title>The Technology Astronauts</title><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-31680814-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="astronaut left"></div>
+    <div class="astronaut right"></div>
+    <div class="content">
+      <link href="stylesheets/TangleKit.css" rel="stylesheet" type="text/css" />
+      <script src="javascripts/sprintf.js" type="text/javascript"></script>
+      <script src="javascripts/mootools.js" type="text/javascript"></script>
+      <script src="javascripts/Tangle.js" type="text/javascript"></script>
+      <script src="javascripts/BVTouchable.js" type="text/javascript"></script>
+      <script src="javascripts/TangleKit.js" type="text/javascript"></script>
+      <p id="estimate">
+        With an estimate of <span class="TKAdjustableNumber" data-format="%.0f hours" data-max="100" data-min="1" data-var="highestProbabilityEstimate"></span> we are <span data-format="%.0f" data-var="probability">%</span> sure to finish by then.
+      </p>
+    </div>
+    <script type="text/javascript">
+      var poisson = function(x, lambda)
+      {
+          var f = 1;
+          var r = Math.pow(lambda,x) * Math.exp(-lambda);
+          while (x > 0)
+          {
+              f = f * x;
+              x--;
+          }
+          return (r/f);
+      }
+      
+      var cumulative = function(func, x, lambda) {
+        var sum = 0;
+        for (var i = 0; i < x; i++) {
+          sum += func(i, lambda);
+        }
+        return sum;
+      }
+      var lambdaEstimate = function(poisson, x, probability, accuracy) {
+        var accuracy = accuracy || 10;
+        for (var l = 100; l > 0; l -= 0.1) {
+          var cumulativeProbability = cumulative(poisson, x, l);
+          if (cumulativeProbability >= probability) {
+            return l;
+          };
+        }
+      }
+      
+      var getQueryStringParameter = function(name) {
+        var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+        return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+      }
+      
+      function setUpTangle () {
+        var element = document.getElementById("estimate");
+      
+        var tangle = new Tangle(element, {
+          initialize: function () {
+            this.highestProbabilityEstimate = parseInt(getQueryStringParameter('ta'));
+            this.probability = parseInt(getQueryStringParameter('p')) / 100;
+            this.lambda = lambdaEstimate(poisson, this.highestProbabilityEstimate, this.probability, 10);
+          },
+          update: function () {
+            this.probability = cumulative(poisson, this.highestProbabilityEstimate, this.lambda) * 100;
+          }
+        });
+      }
+      setUpTangle();
+    </script>
+  </body>
+</html>

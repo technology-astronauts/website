@@ -1,11 +1,11 @@
 source "http://rubygems.org"
 
-gem "middleman", "~>2.0.14"
+gem "middleman", "~> 3.0.0"
 
-gem 'rb-fsevent'
+# gem 'rb-fsevent'
 gem 'guard-livereload'
 
-gem 'slim'
+gem 'slim', '~> 1.3.7'
 gem 'RedCloth'
 
 gem 'git-deploy'
