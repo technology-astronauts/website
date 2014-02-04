@@ -60,7 +60,7 @@ javascript:
         this.mu = 0;
       },
       update: function () {
-      	this.probability = logNormalCDF(this.hours/this.magic, this.mu, this.doubt) * 100;
+      	this.probability = Math.floor(logNormalCDF(this.hours/this.magic, this.mu, this.doubt) * 100);
       }
     });
   }
