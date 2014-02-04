@@ -56,7 +56,7 @@ javascript:
       initialize: function () {
         this.hours = parseInt(getQueryStringParameter('hours'));
         this.doubt = parseFloat(getQueryStringParameter('doubt'));
-        this.mu = parseInt(getQueryStringParameter('mu'));
+        this.mu = Math.log(parseInt(getQueryStringParameter('mu')));
       },
       update: function () {
       	this.probability = Math.floor(logNormalCDF(this.hours, this.mu, this.doubt) * 100);
