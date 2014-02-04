@@ -10,39 +10,38 @@
   
   p#estimate
     |  With an estimate of 
-    span data-var="highestProbabilityEstimate" class="TKAdjustableNumber" data-min="1" data-max="100" data-format="%.0f hours"
+    span data-var="hours" class="TKAdjustableNumber" data-min="1" data-max="200" data-format="%.0f hours"
     |  we are 
     span data-var="probability" data-format="%.0f" %
     |  sure to finish by then.
 
 javascript:
-  var poisson = function(x, lambda)
-  {
-      var f = 1;
-      var r = Math.pow(lambda,x) * Math.exp(-lambda);
-      while (x > 0)
-      {
-          f = f * x;
-          x--;
-      }
-      return (r/f);
+  var standardNormalCDF = function(z) {
+    var b1 = 0.31938153;
+    var b2 = -0.356563782;
+    var b3 = 1.781477937;
+    var b4 = -1.821255978;
+    var b5 = 1.330274429;
+    var p = 0.2316419;
+    var c2 = 0.3989423;
+    if (z > 6.0) {
+      return 1.0;
+    };
+    if (z < -6.0) {
+      return 0.0;
+    };
+    var a = Math.abs(z);
+    var t = 1.0 / (1.0 + a * p);
+    var b = c2 * Math.exp((-z) * (z / 2.0));
+    var n = ((((b5 * t + b4) * t + b3) * t + b2) * t + b1) * t;
+    n = 1.0 - b * n;
+    if (z < 0.0) {
+      n = 1.0 - n
+    };
+    return n;
   }
-  
-  var cumulative = function(func, x, lambda) {
-    var sum = 0;
-    for (var i = 0; i < x; i++) {
-      sum += func(i, lambda);
-    }
-    return sum;
-  }
-  var lambdaEstimate = function(poisson, x, probability, accuracy) {
-    var accuracy = accuracy || 10;
-    for (var l = 100; l > 0; l -= 0.1) {
-      var cumulativeProbability = cumulative(poisson, x, l);
-      if (cumulativeProbability >= probability) {
-        return l;
-      };
-    }
+  var logNormalCDF = function(x, mu, sigma) {
+    return standardNormalCDF((Math.log(x) - mu) / sigma);
   }
   
   var getQueryStringParameter = function(name) {
@@ -55,12 +54,13 @@ javascript:
 
     var tangle = new Tangle(element, {
       initialize: function () {
-        this.highestProbabilityEstimate = parseInt(getQueryStringParameter('ta'));
-        this.probability = parseInt(getQueryStringParameter('p')) / 100;
-        this.lambda = lambdaEstimate(poisson, this.highestProbabilityEstimate, this.probability, 10);
+        this.hours = parseInt(getQueryStringParameter('hours'));
+        this.doubt = parseFloat(getQueryStringParameter('doubt'));
+        this.magic = this.hours/2.3; // The Bull-Schiess-Hanke constant.
+        this.mu = 0;
       },
       update: function () {
-      	this.probability = cumulative(poisson, this.highestProbabilityEstimate, this.lambda) * 100;
+      	this.probability = logNormalCDF(this.hours/this.magic, this.mu, this.doubt) * 100;
       }
     });
   }
