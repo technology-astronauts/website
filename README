@@ -5,8 +5,8 @@ technologyastronauts.ch
 
 Build with
 
-middleman build
+  middleman build
 
 Run with
 
-middleman server
+  middleman server

@@ -56,11 +56,10 @@ javascript:
       initialize: function () {
         this.hours = parseInt(getQueryStringParameter('hours'));
         this.doubt = parseFloat(getQueryStringParameter('doubt'));
-        this.magic = this.hours/2.3; // The Bull-Schiess-Hanke constant.
-        this.mu = 0;
+        this.mu = parseInt(getQueryStringParameter('mu'));
       },
       update: function () {
-      	this.probability = Math.floor(logNormalCDF(this.hours/this.magic, this.mu, this.doubt) * 100);
+      	this.probability = Math.floor(logNormalCDF(this.hours, this.mu, this.doubt) * 100);
       }
     });
   }
