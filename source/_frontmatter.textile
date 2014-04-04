@@ -1,24 +1,28 @@
-*Software*&nbsp;&nbsp; Put us to work on your software projects. We
+*Software* Put us to work on your software projects. We
 deliver quality software while keeping an eye on scope and maintainability. We
 want the users to be happy users.
 
-*Server Environments*&nbsp;&nbsp; We develop server environments that
+*Server Environments* We develop server environments that
 are low maintenance. We use technologies like ZFS and KVM(Kernel-based Virtual
 Machine) to make your data center rock solid. The best documentation is
 executable code – we deliver a fully self-describing system that can be
 replicated to new hardware.
 
-*Cloud Hosting*&nbsp;&nbsp; We can help you move part or all your services
+*Cloud Hosting* We can help you move part or all your services
 to the cloud. Even to a private corner of the cloud. 
 
-*Coaching & Consulting*&nbsp;&nbsp; We have over 10 years of experience
+*Coaching & Consulting* We have over 10 years of experience
 with sustainable software development. Starting off with a simple conversation
 we find areas where we can help improve your current practices.
 
-*On every scale*&nbsp;&nbsp; Do you need a mobile application? Or a web
+*On every scale* Do you need a mobile application? Or a web
 application? Are you creating a web of distributed applications that process
 data? Machine learning? Do you want to give your business a human interface?
 We want to help.
+
+*You can rely on us* If we can do it, we will. If we don't think we're the
+perfect choice, we will tell you and suggest an alternative. If something
+is not possible, we will suggest alternatives.
 
 p(close). *Team*
 * Florian Hanke (<a href="http://florianhanke.com">florianhanke.com</a>)
