@@ -6,10 +6,7 @@ want the users to be happy users.
 are low maintenance. We use technologies like ZFS and KVM(Kernel-based Virtual
 Machine) to make your data center rock solid. The best documentation is
 executable code – we deliver a fully self-describing system that can be
-replicated to new hardware.
-
-*Cloud Hosting* We can help you move part or all your services
-to the cloud. Even to a private corner of the cloud. 
+replicated to new hardware. Or to the cloud. 
 
 *Coaching & Consulting* We have over 10 years of experience
 with sustainable software development. Starting off with a simple conversation
@@ -22,10 +19,6 @@ We want to help.
 
 *You can rely on us* We keep deadlines. We stick to our agreements. The value we deliver to you motivates our work. 
 
-p(close). *Team*
-* Florian Hanke (<a href="http://florianhanke.com">florianhanke.com</a>)
-* Kaspar Schiess (<a href="http://absurd.li">absurd.li</a>)
-
 p(close). *References*
 
 * Search Engines ("twixtel":http://www.twixtel.ch/,
@@ -35,8 +28,5 @@ p(close). *References*
   "InfoCard":http://infocard.ch/)
 * "Open&nbsp;Source":opensource.html
   
-p(close). "*Subscribe*":http://technologyastronauts.us5.list-manage.com/subscribe?u=e29eecdfe67bdbd65366864ae&id=afb10ef3be
- to our Newsletter. We promise not to bore you. ("Exhibit A":http://us5.campaign-archive2.com/home/?u=e29eecdfe67bdbd65366864ae&id=afb10ef3be)
-
 p(slogan). *Do you have a hard problem?* <br/>
 Hire an astronaut today. "Contact&nbsp;us":contact.html.
