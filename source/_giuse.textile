@@ -1,9 +1,5 @@
-
-<img src="images/giuse_bc.jpg" width="600px"/>
-
-<small>
-Italian - 30 y.o. - married
-</small>
+<img src="images/giuse_bc.jpg" width="500px"/>
+<br clear="left">
 
 *Skillset*
 * PhD in Artificial Intelligence
@@ -14,6 +10,7 @@ Italian - 30 y.o. - married
 * Linux/Bash guru 
 
 *Personal traits*
+* Italian, 30 y.o. - married
 * Parlo italiano, et un peu de Français
 * Motor-head, especially motorbikes
 * Sportsman, martial artist
