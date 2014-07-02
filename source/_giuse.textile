@@ -1,0 +1,25 @@
+
+<img src="images/giuse_bc.jpg" width="600px"/>
+
+<small>
+Italian - 30 y.o. - married
+</small>
+
+*Skillset*
+* PhD in Artificial Intelligence
+* 5y research experience
+* Top level programming, long time Lisper
+* Superior technical writing and presentation skills
+* Academic teacher, Master-level experience
+* Linux/Bash guru 
+
+*Personal traits*
+* Parlo italiano, et un peu de Français
+* Motor-head, especially motorbikes
+* Sportsman, martial artist
+* Easy person, team player 
+
+*Contacts*
+* giuse@astronauts.ch
+* astronauts.ch/giuse
+* Tough problem? Hire an astronaut.
