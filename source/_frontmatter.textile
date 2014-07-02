@@ -1,5 +1,12 @@
-<tt><big>Astronaut</big></tt>: an highly educated, superbly skilled engineer, reliable for solving the toughest problems, in presence of high stakes and limited resources.
+<center>
+<tt><h3>Astronaut</h3></tt>
+highly educated, superbly skilled engineer<br>
+used to face the hardest challenges<br>
+reliable with high stakes and limited resources.
 
+<hr>
+p(slogan). *Tough problem? - Hire an astronaut.* 
+</center>
 <hr>
 
 *Software:* _Expect quality._ <br> We solve the hardest problems while keeping an eye on scope and maintainability. We work our priorities fast. Our users are happy users.
@@ -7,12 +14,12 @@
 *Server based solutions:* _Low maintenance._ <br> Technologies like ZFS and KVM make your data center rock solid.
 The best documentation is executable code – we deliver a fully self-describing system, easily portable to new hardware. Or to the cloud.
 
-*Coaching & Consulting:* _Our experience at your fingertips._ <br> Just give us a call and see how easy it is to talk with us. With decades of experience with _sustainable_ software development, we can spot simple improvements to your company practices.
+*Coaching & Consulting:* _Guru at your service._ <br> Just give us a call and see how easy it is to talk with us. With decades of experience with _sustainable_ software development, we can spot simple improvements to your company practices.
 
-*We work on any scale:* _The challenge is everything._ <br> Nothing's too big or too small, we work with any device and tool, scaling our contribution to exactly suit your needs.
+*We work on any scale:* _It's all about the challenge._ <br> Nothing's too big or too small, we work with any device and tool, scaling our contribution to exactly suit your needs.
 We do mobile applications, web interfaces, distributed computing, as low as load distribution tuning, as high as machine learning, our skillset is broad and flexible.
 
-*You can rely on us:* _We keep deadlines._ <br> Seriously, we do. We stick to our agreements, and have pride in high value SOLUTIONS.
+*You can rely on us:* _We keep deadlines._ <br> Seriously, we do. We stick to our agreements, and have pride in the value we produce.
 Most of our clients come to us by word-of-mouth: performance and reliability are our advertisement.
 
 p(close). *Some references*
@@ -22,8 +29,8 @@ p(close). *Some references*
 * Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
 * Social Networks ("restorm.com":http://restorm.com/,
   "InfoCard":http://infocard.ch/)
-* "Open&nbsp;Source":opensource.html
+*  Our "Open&nbsp;Source":opensource.html contributions
 
-p(slogan). *Tough problem? _Hire an astronaut_* <br/>
-Put us to test, you'll find out there's nothing we can't solve. <br/>
+*Try us out*  <br/>
+There's nothing we haven't solved so far. <br/>
 Hire an astronaut today. "Contact&nbsp;us":contact.html.
