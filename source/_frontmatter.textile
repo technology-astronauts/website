@@ -1,32 +1,29 @@
-*Software* Put us to work on your software projects. We
-deliver quality software while keeping an eye on scope and maintainability. We
-want the users to be happy users.
+<tt><big>Astronaut</big></tt>: an highly educated, superbly skilled engineer, reliable for solving the toughest problems, in presence of high stakes and limited resources.
 
-*Server Environments* We develop server environments that
-are low maintenance. We use technologies like ZFS and KVM(Kernel-based Virtual
-Machine) to make your data center rock solid. The best documentation is
-executable code – we deliver a fully self-describing system that can be
-replicated to new hardware. Or to the cloud. 
+<hr>
 
-*Coaching & Consulting* We have over 10 years of experience
-with sustainable software development. Starting off with a simple conversation
-we find areas where we can help improve your current practices.
+*Software:* _Expect quality._ <br> We solve the hardest problems while keeping an eye on scope and maintainability. We work our priorities fast. Our users are happy users.
 
-*On every scale* Do you need a mobile application? Or a web
-application? Are you creating a web of distributed applications that process
-data? Machine learning? Do you want to give your business a human interface?
-We want to help.
+*Server based solutions:* _Low maintenance._ <br> Technologies like ZFS and KVM make your data center rock solid.
+The best documentation is executable code – we deliver a fully self-describing system, easily portable to new hardware. Or to the cloud.
 
-*You can rely on us* We keep deadlines. We stick to our agreements. The value we deliver to you motivates our work. 
+*Coaching & Consulting:* _Our experience at your fingertips._ <br> Just give us a call and see how easy it is to talk with us. With decades of experience with _sustainable_ software development, we can spot simple improvements to your company practices.
 
-p(close). *References*
+*We work on any scale:* _The challenge is everything._ <br> Nothing's too big or too small, we work with any device and tool, scaling our contribution to exactly suit your needs.
+We do mobile applications, web interfaces, distributed computing, as low as load distribution tuning, as high as machine learning, our skillset is broad and flexible.
+
+*You can rely on us:* _We keep deadlines._ <br> Seriously, we do. We stick to our agreements, and have pride in high value SOLUTIONS.
+Most of our clients come to us by word-of-mouth: performance and reliability are our advertisement.
+
+p(close). *Some references*
 
 * Search Engines ("twixtel":http://www.twixtel.ch/,
  "CocoaPods":http://cocoapods.org/)
 * Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
-* Social Networks ("restorm.com":http://restorm.com/, 
+* Social Networks ("restorm.com":http://restorm.com/,
   "InfoCard":http://infocard.ch/)
 * "Open&nbsp;Source":opensource.html
-  
-p(slogan). *Do you have a hard problem?* <br/>
+
+p(slogan). *Tough problem? _Hire an astronaut_* <br/>
+Put us to test, you'll find out there's nothing we can't solve. <br/>
 Hire an astronaut today. "Contact&nbsp;us":contact.html.
