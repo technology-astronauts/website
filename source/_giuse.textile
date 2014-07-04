@@ -1,5 +1,4 @@
-<img src="images/giuse_bc.jpg" width="500px"/>
-<br clear="left">
+!(bcard)images/giuse_bc.png!
 
 *Skillset*
 * PhD in Artificial Intelligence
