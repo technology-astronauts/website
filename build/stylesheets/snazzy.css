@@ -54,20 +54,28 @@ h1 {
   .content img {
     float: left;
     margin: 0 10px; }
+    /* line 54, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+    .content img.bcard {
+      float: center;
+      width: 500px; }
+    /* line 57, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+    .content img.moon {
+      float: center;
+      width: 40px; }
 
-/* line 55, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+/* line 61, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
 .astronaut {
   width: 202px;
   height: 853px;
   position: absolute;
   background-repeat: no-repeat;
   z-index: -1; }
-  /* line 62, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 68, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
   .astronaut.left {
     left: 0px;
     background-image: url(../images/left_astronaut.png);
     background-size: 202px 583px; }
-  /* line 67, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 73, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
   .astronaut.right {
     right: 0px;
     background-image: url(../images/right_astronaut.png);
@@ -76,22 +84,22 @@ h1 {
     margin-left: -10px; }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  /* line 77, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 83, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
   .astronaut.left {
     background-image: url(../images/left_astronaut@2x.png); }
 
-  /* line 79, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 85, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
   .astronaut.right {
     background-image: url(../images/right_astronaut@2x.png); } }
 @media all and (max-width: 880px) {
-  /* line 85, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 91, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
   body {
     font-size: 14px; } }
 @media all and (max-width: 720px) {
-  /* line 89, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 95, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
   body {
     font-size: 12px; } }
 @media all and (max-width: 640px) {
-  /* line 93, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 99, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
   .astronaut {
     display: none; } }
