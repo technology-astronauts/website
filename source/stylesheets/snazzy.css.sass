@@ -12,7 +12,7 @@ body
     weight: 300
     size: 18px
     family: sans-serif
-    
+
   a
     text-decoration: underscore
     color: #555
@@ -32,38 +32,44 @@ h1
   margin: 0 auto
   p
     margin: 2em 0
-    
+
     strong
       margin-right: 0.5em
-  
+
     &.slogan
       font-size: 1.1em
       white-space: nowrap
-    
+
   p.close
     margin-bottom: 1em
-  
+
   strong
     color: #555
     text-transform: uppercase
     font-family: 'Futura', sans-serif
-  
+
   img
     float: left
     margin: 0 10px
-  
+    &.bcard
+      float: center
+      width: 500px
+    &.moon
+      float: center
+      width: 40px
+
 .astronaut
   width: 202px
   height: 853px
   position: absolute
   background-repeat: no-repeat
   z-index: -1
-  
+
   &.left
     left: 0px
     background-image: url(../images/left_astronaut.png)
     background-size: 202px 583px
-    
+
   &.right
     right: 0px
     background-image: url(../images/right_astronaut.png)
@@ -78,7 +84,7 @@ h1
     background-image: url(../images/left_astronaut@2x.png)
   .astronaut.right
     background-image: url(../images/right_astronaut@2x.png)
-    
+
 // Too narrow? Resize the text, or even remove the astronauts.
 //
 @media all and (max-width: 880px)
@@ -88,7 +94,7 @@ h1
 @media all and (max-width: 720px)
   body
     font-size: 12px
-    
+
 @media all and (max-width: 640px)
   .astronaut
     display: none

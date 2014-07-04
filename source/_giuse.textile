@@ -1,0 +1,26 @@
+!(bcard)images/giuse_bc.png!
+
+*Skillset*
+* PhD in Artificial Intelligence
+* 5y research experience
+* Top level programming, long time Lisper
+* Superior technical writing and presentation skills
+* Academic teacher, Master-level experience
+* Linux/Bash guru, Mac user 
+
+*Personal traits*
+* Italian, 30 y.o. - married
+* Parlo italiano, et un peu de français
+* Motor-head, especially motorbikes
+* Sportsman, martial artist
+* Team player, love challenges
+* Smaller nose than on the pic (I swear)
+
+<center>
+*Want the Moon? Hire an astronaut.*<br>
+"giuse@astronauts.ch":mail
+
+!(moon)images/moon.png!
+</center>
+
+[mail]mailto:giuse@astronauts.ch?subject=Hire%20an%20astronaut
