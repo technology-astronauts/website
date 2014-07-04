@@ -6,16 +6,21 @@
 * Top level programming, long time Lisper
 * Superior technical writing and presentation skills
 * Academic teacher, Master-level experience
-* Linux/Bash guru 
+* Linux/Bash guru, Mac user 
 
 *Personal traits*
 * Italian, 30 y.o. - married
-* Parlo italiano, et un peu de Français
+* Parlo italiano, et un peu de français
 * Motor-head, especially motorbikes
 * Sportsman, martial artist
-* Easy person, team player 
+* Team player, love challenges
+* Smaller nose than on the pic (I swear)
 
-*Contacts*
-* giuse@astronauts.ch
-* astronauts.ch/giuse
-* Tough problem? Hire an astronaut.
+<center>
+*Want the Moon? Hire an astronaut.*<br>
+"giuse@astronauts.ch":mail
+
+!(moon)images/moon.png!
+</center>
+
+[mail]mailto:giuse@astronauts.ch?subject=Hire%20an%20astronaut
