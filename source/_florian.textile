@@ -1,0 +1,39 @@
+!(bcard)images/florian_bc.png!
+
+*Skillset*
+<!-- PhD in Artificial Intelligence -->
+* xxxxxxxxxxxxxxx
+<!-- 5y research experience -->
+* xxxxxxxxxxxxxxx
+<!-- Top level programming, long time Lisper -->
+* xxxxxxxxxxxxxxx
+<!-- Superior technical writing and presentation skills -->
+* xxxxxxxxxxxxxxx
+<!-- Academic teacher, Master-level experience -->
+* xxxxxxxxxxxxxxx
+<!-- Linux/Bash guru, Mac user  -->
+* xxxxxxxxxxxxxxx
+
+*Personal traits*
+<!--  Italian, 30 y.o. - married -->
+* xxxxxxxxxxxxxxx
+<!--  Parlo italiano, et un peu de français -->
+* xxxxxxxxxxxxxxx
+<!--  Motor-head, especially motorbikes -->
+* xxxxxxxxxxxxxxx
+<!--  Sportsman, martial artist -->
+* xxxxxxxxxxxxxxx
+<!--  Team player, love challenges -->
+* xxxxxxxxxxxxxxx
+<!--  Smaller nose than on the pic (I swear) -->
+* xxxxxxxxxxxxxxx
+
+<center>
+<!-- Want the Moon? Hire an astronaut. -->
+*Do you have a hard problem?<br/>Hire an astronaut today.*<br>
+"florian@astronauts.ch":mail
+
+!(moon)images/moon.png!
+</center>
+
+[mail]mailto:florian@astronauts.ch?subject=Hire%20an%20astronaut
