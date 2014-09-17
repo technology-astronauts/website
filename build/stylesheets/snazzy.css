@@ -1,10 +1,10 @@
-/* line 1, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+/* line 1, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 6, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+/* line 6, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
 body {
   background: white;
   color: #333333;
@@ -13,12 +13,12 @@ body {
   font-weight: 300;
   font-size: 18px;
   font-family: sans-serif; }
-  /* line 16, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 16, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   body a {
     text-decoration: underscore;
     color: #555555; }
 
-/* line 20, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+/* line 20, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
 h1 {
   font-size: 2.6em;
   font-family: "Futura", sans-serif;
@@ -28,54 +28,54 @@ h1 {
   margin: 1em auto 0.8em;
   text-align: center; }
 
-/* line 30, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+/* line 30, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
 .content {
   width: 36em;
   margin: 0 auto; }
-  /* line 33, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 33, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .content p {
     margin: 2em 0; }
-    /* line 36, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+    /* line 36, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
     .content p strong {
       margin-right: 0.5em; }
-    /* line 39, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+    /* line 39, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
     .content p.slogan {
       font-size: 1.1em;
       white-space: nowrap; }
-  /* line 43, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 43, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .content p.close {
     margin-bottom: 1em; }
-  /* line 46, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 46, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .content strong {
     color: #555555;
     text-transform: uppercase;
     font-family: "Futura", sans-serif; }
-  /* line 51, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 51, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .content img {
     float: left;
     margin: 0 10px; }
-    /* line 54, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+    /* line 54, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
     .content img.bcard {
       float: center;
       width: 500px; }
-    /* line 57, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+    /* line 57, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
     .content img.moon {
       float: center;
       width: 40px; }
 
-/* line 61, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+/* line 61, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
 .astronaut {
   width: 202px;
   height: 853px;
   position: absolute;
   background-repeat: no-repeat;
   z-index: -1; }
-  /* line 68, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 68, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .astronaut.left {
     left: 0px;
     background-image: url(../images/left_astronaut.png);
     background-size: 202px 583px; }
-  /* line 73, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 73, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .astronaut.right {
     right: 0px;
     background-image: url(../images/right_astronaut.png);
@@ -84,22 +84,22 @@ h1 {
     margin-left: -10px; }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  /* line 83, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 83, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .astronaut.left {
     background-image: url(../images/left_astronaut@2x.png); }
 
-  /* line 85, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 85, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .astronaut.right {
     background-image: url(../images/right_astronaut@2x.png); } }
 @media all and (max-width: 880px) {
-  /* line 91, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 91, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   body {
     font-size: 14px; } }
 @media all and (max-width: 720px) {
-  /* line 95, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 95, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   body {
     font-size: 12px; } }
 @media all and (max-width: 640px) {
-  /* line 99, /Users/giuse/TA/code/ta-website/source/stylesheets/snazzy.css.sass */
+  /* line 99, /Users/kschiess/git/ta/own/website/source/stylesheets/snazzy.css.sass */
   .astronaut {
     display: none; } }

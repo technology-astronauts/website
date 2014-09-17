@@ -2,11 +2,10 @@
 deliver quality software while keeping an eye on scope and maintainability. We
 want the users to be happy users.
 
-*Server Environments* We develop server environments that
-are low maintenance. We use technologies like ZFS and KVM(Kernel-based Virtual
-Machine) to make your data center rock solid. The best documentation is
-executable code – we deliver a fully self-describing system that can be
-replicated to new hardware. Or to the cloud. 
+*Server Environments* We develop server environments that are low maintenance.
+We use technologies like ZFS, KVM(Kernel-based Virtual Machine) and Docker to
+make your data center rock solid. Our monitoring helps keep your servers
+running.  We automate daily tasks until your mind is free for work again.
 
 *Coaching & Consulting* We have over 10 years of experience
 with sustainable software development. Starting off with a simple conversation
@@ -17,16 +16,18 @@ application? Are you creating a web of distributed applications that process
 data? Machine learning? Do you want to give your business a human interface?
 We want to help.
 
-*You can rely on us* We keep deadlines. We stick to our agreements. The value we deliver to you motivates our work. 
+*You can rely on us* We keep deadlines. We stick to our agreements. The value we
+deliver to you motivates our work. We remember what agility was all about. 
+
 
 p(close). *References*
 
-* Search Engines ("twixtel":http://www.twixtel.ch/,
- "CocoaPods":http://cocoapods.org/)
+* Search Engines ("CocoaPods":http://cocoapods.org/)
 * Automating Operations ("GIUZ":http://www.geo.uzh.ch/)
-* Social Networks ("restorm.com":http://restorm.com/, 
-  "InfoCard":http://infocard.ch/)
-* "Open&nbsp;Source":opensource.html
+* Social Networks ("InfoCard":http://infocard.ch/)
+* Logistics ("Brenner":http://brenner.eu/?lang=en)
+* Sports ("Swiss Unihockey":http://www.swissunihockey.ch)
+* Visit our "Open&nbsp;Source":opensource.html portfolio
   
 p(slogan). *Do you have a hard problem?* <br/>
 Hire an astronaut today. "Contact&nbsp;us":contact.html.
